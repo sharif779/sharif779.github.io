@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/nlohmann
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://nlohmann.me
+  * I am nlohmann (https://keybase.io/nlohmann) on keybase.
+  * I have a public key with fingerprint 7971 67AE 41C0 A6D9 232E  4845 7F3C EA63 AE25 1B69
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "797167ae41c0a6d9232e48457f3cea63ae251b69",
+            "host": "keybase.io",
+            "key_id": "7F3CEA63AE251B69",
+            "uid": "72fe97d160805ad580c7a42aecb40f00",
+            "username": "nlohmann"
+        },
+        "service": {
+            "hostname": "nlohmann.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396980104,
+    "expire_in": 157680000,
+    "prev": "4c187983d55645f4d41750cacd7c4c6799e0b5277b998dac107619d5c6719a34",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+Comment: GPGTools - https://gpgtools.org
+
+owGbwMvMwMVYb/MqeZ2qdCbj6QMfkhiCXSw7qpWS8lMqlayqlbJTwVRaZl56alFB
+UWZeiZKVkrmluaGZeWKqiWGyQaJZiqWRsVGqiYWJqXmacXJqoplxYqqRqWGSmaWS
+jlJGfjFIB9CYpMTiVL3MfKAYkBOfmQIyx83Y2dXRzNjRFajeCay+FCJhlJZqaZ5i
+aGZgYWCamGJqYZBsnmhilJianGRikGZgAFJYnFqUl5ibClSdl5OfkZuYl6dUq6ME
+FC3LTE4FuRlkNZoKPSBPR6mgKL8kPzk/ByiRUVJSYAXSV1JZAFJYnpoUDzUiPikz
+LwXobaCGstSi4sz8PCUrQ6DK5JJMkJmGxpZmlhYGhgYmOkqpFQWZRanxmSAVpuZm
+FgZAALImtQxopEmyoYW5pYVxiqmpmYlpmkmKiaG5qUFyYnKKebJJspm5pWWqQZKp
+kbl5kqWlRUpisqGBuZmhZYopUMrQMtHYRAnkqcK8fCUrU6AzE9OBRhZnpucllpQW
+pSrVdjLJsDAwcjGwsTKBIo6Bi1MAFp2vQ/n/Vwg90bm3RWRBimTLs+UbX25tMD9a
+32vSE/b2TEZP1qq2y14XI387zTnM3a6/cceqmzeaBKRvnfbRmhm3sbnqqfzer/Nn
+GvW8mdqhV8xXtyY6f+vFBztcdvVOultxce2PiMpPV2p6d/ho5hgriJqq1RjnVrOu
+lvq8WXbK5dVx/vo71++ZZbPXxOGD9pz2y7sfvpZnaVF/0HXq6vsPf3T//Ah+Wd8Y
+ffyiT1YAk2Jw3qzHxQF3P1jd/3EsNlHvdHB4Ae8asymtphuzAtQ1hG6b7Pv0aHez
+0O3lX+bkzsvc/cX+/MznrI/Ul+/eG9uZ9iP/0zJLzQOPztxbfGuhe0SDld0qjh2L
+r9+x6dxw8vIkOdP1iYHzFgs9yuCsL77G2T+dg+nzgqrzyRWL3mg1uEw09nq1UkC/
+xLjy0yTuJOnu7//E1+3eL77FaX7/DcVr1/W9eBu9rsrJFmdz9+r4+uitl7jyx1G6
+X6b9x0LJ/ia7xOTHLudUfL9e39TpPvdzzJtrygt1p/L/cpZQUnmmnSdsvdXxL7fq
+crlPG+4umxHkYfpmdZeaOX+47KmvIlELryxQ27UziW/X++U5qUuUO+PMBe23lVjY
+hIi5vivVZGM2CT6VuPWNDGcewy2zl5m99vfPtvVtLlr+p164bI67x3pZo/Rfe7+5
+7FI5l9PyrzT7irhA1MV7Ky1d7x8zz/5rxnzIdlrqbw/fL0Yb+exvAgA=
+=gLby
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nlohmann
+
+==================================================================
+

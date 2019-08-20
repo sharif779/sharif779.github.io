@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Niels Lohmann</title>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="JH4ZFJGVhfcn8U4xYfwyisr_OM5BqZTtDd0_08rCCjA" />
+    <meta name="author" content="Sharif Hossain">
+    <meta name="contact" content="sharif.aiub.20@gmail.com">
+    <meta name="publisher" content="Sharif Hossain">
+    <meta name="copyright" content="Sharif Hossain">
+    <meta name="description" content="Sharif Hossain>
+    <meta name="keywords" content="Sharif, Hossain, AIUB,Dhaka">
+    <meta name="robots" content="index, follow">
+    <meta name="DC.Creator" content="Niels Lohmann">
+    <meta name="DC.Publisher" content="Niels Lohmann">
+    <meta name="DC.Rights" content="Niels Lohmann">
+    <meta name="DC.Description" content="Niels Lohmann, Postdoc researcher at the University of Rostock">
+    <meta name="DC.Language" content="en-us">
+    <link rel="stylesheet" type="text/css" href="resources/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/avenir.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/layout.css">
+
+    <noscript>
+      <style>.btn { position: relative; } #content { top: 200px; } </style>
+    </noscript>
+
+    <script type="text/javascript" src="resources/js/jquery-1.10.2.min.js"></script>
+    <script type='text/javascript' src="resources/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(window).load(function(){
+    $('.popoverData').popover();
+    });
+
+    $(function(){
+    function distributeFields() {
+        var radius = ($('#avatar').height() / 2) + 50;
+        var fields = $('.btn'), container = $('#circle'),
+            width = container.width(), height = container.height(),
+            step = (2*Math.PI) / fields.length, angle = 90 + step*2.5;
+        fields.each(function() {
+            var x = Math.round(width/2 + radius * Math.cos(angle) - $(this).width()/2);
+            var y = Math.round(height/2 + radius * Math.sin(angle) - $(this).height()/2);
+            if(window.console) {
+                console.log($(this).text(), x, y);
+            }
+            $(this).css({
+                left: x + 'px',
+                top: y + 'px'
+            });
+            angle += step;
+        });
+    }
+
+    distributeFields();
+    });
+    </script>
+</head>
+
+<body>
+    <div id="content">
+      <div id="circle">
+        <img src="resources/images/avatar.jpg" alt="Niels Lohmann" id="avatar">
+        <noscript><br/></noscript>
+
+        <a href="http://www.informatik.uni-rostock.de/~nl"
+            class="btn popoverData" data-content="my university website" title="my university website" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-university"></i>
+        </a>
+        <a href="mailto:mail@nlohmann.me"
+            class="btn popoverData" data-content="email me" title="email me" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-envelope"></i>
+        </a>
+        <a href="https://keybase.io/nlohmann"
+            class="btn popoverData" data-content="my public key" title="verify me" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-lock"></i>
+        </a>
+        <a href="tel:+491785679727"
+            class="btn popoverData" data-content="call me" title="call me" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-phone"></i>
+        </a>
+        <!--
+        <a href="skype:nlohmann?chat"
+            class="btn popoverData" data-content="chat with me" title="chat with me" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-skype"></i>
+        </a>
+        -->
+        <a href="http://dblp.uni-trier.de/pers/hd/l/Lohmann:Niels.html"
+            class="btn popoverData" data-content="my publications" title="my publications" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-book"></i>
+        </a>
+        <a href="https://twitter.com/nlohmann"
+            class="btn popoverData" data-content="my microblog" title="my microblog" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://github.com/nlohmann"
+            class="btn popoverData" data-content="my software" title="my software" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-github"></i>
+        </a>
+        <a href="http://stackoverflow.com/users/266378/niels-lohmann"
+            class="btn popoverData" data-content="my questions and answers" title="my questions and answers" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-stack-overflow"></i>
+        </a>
+        <a href="https://flattr.com/profile/nlohmann"
+            class="btn popoverData" data-content="flattr me" title="flattr me" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-heart"></i>
+        </a>
+        <a href="http://www.amazon.de/registry/wishlist/KQ7Q8JXTR93J/ref=cm_sw_r_tw_ws_SljhxbBY8TBV6"
+            class="btn popoverData" data-content="my wishlist" title="my wishlist" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-amazon"></i>
+        </a>
+        <a href="http://paypal.me/nlohmann"
+            class="btn popoverData" data-content="my paypal" title="my paypal" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-paypal"></i>
+        </a>
+        <a href="http://www.linkedin.com/in/nielslohmann"
+            class="btn popoverData" data-content="my academic network" title="my academic network" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://www.xing.com/profile/Niels_Lohmann"
+            class="btn popoverData" data-content="my professional network" title="my professional network" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-xing"></i>
+        </a>
+        <a href="https://www.facebook.com/niels.lohmann"
+            class="btn popoverData" data-content="my social network" title="my social network" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://foursquare.com/nlohmann"
+            class="btn popoverData" data-content="my location" title="my location" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-foursquare"></i>
+        </a>
+        <a href="http://blog.nlohmann.me"
+            class="btn popoverData" data-content="my blog" title="my blog" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-comment"></i>
+        </a>
+        <a href="https://www.instagram.com/nlohmann/"
+            class="btn popoverData" data-content="my photos" title="my photos" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://vimeo.com/nlohmann"
+            class="btn popoverData" data-content="my videos" title="my videos" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-vimeo-square"></i>
+        </a>
+      </div>
+        <div id="content_name">Niels Lohmann</div>
+        <div id="content_description">
+            Senior Software Architect at MBition
+            <br><small>previously: <a href="http://www.carmeq.de">System Designer at Carmeq</a> and <a href="http://www.informatik.uni-rostock.de/~nl/">Postdoc researcher at the University of Rostock</a></small>
+        </div>
+    </div>
+
+    <div id="metadata" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Niels Lohmann</span>
+        <span itemprop="jobTitle">Postdoc</span>
+        <span itemprop="email">mail@nlohmann.me</span>
+        <span itemprop="gender">male</span>
+        <span itemprop="familyName">Lohmann</span>
+        <span itemprop="givenName">Niels</span>
+        <span itemprop="honorificPrefix">Dr.</span>
+
+        <span itemprop="affiliation" itemscope
+           itemtype="http://data-vocabulary.org/Organization">
+           <span itemprop="name">University of Rostock</span>
+
+           <span itemprop="location" itemscope
+              itemtype="http://data-vocabulary.org/PostalAddress">
+              <span itemprop="addressLocality">Rostock</span>
+              <span itemprop="addressCountry">DE</span>
+           </span>
+        </span>
+
+        <span itemprop="address" itemscope
+           itemtype="http://data-vocabulary.org/PostalAddress">
+           <span itemprop="addressLocality">Rostock</span>
+           <span itemprop="addressCountry">DE</span> 
+        </span>
+
+        <a href="http://www.informatik.uni-rostock.de/~nl" itemprop="url">website</span>
+        <a href="http://www.informatik.uni-rostock.de/~nl/resources/img/nlohmann.jpg" itemprop="image">photo</a>
+    </div>
+  </body>
+
+</html>
