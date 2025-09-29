@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sharif Hossain</title>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="JH4ZFJGVhfcn8U4xYfwyisr_OM5BqZTtDd0_08rCCjA" />
+    <meta name="author" content="Sharif Hossain">
+    <meta name="contact" content="sharif.aiub.20@gmail.com">
+    <meta name="publisher" content="Sharif Hossain">
+    <meta name="copyright" content="Sharif Hossain">
+    <meta name="description" content="Sharif Hossain>
+    <meta name="keywords" content="Sharif, Hossain, AIUB,Dhaka,software engineer,">
+    <meta name="robots" content="index, follow">
+    <meta name="DC.Creator" content="Sharif Hossain">
+    <meta name="DC.Publisher" content="Sharif Hossain">
+    <meta name="DC.Rights" content="Sharif Hossain">
+    <meta name="DC.Description" content="Sharif Hossain,American International University Bangladesh">
+    <meta name="DC.Language" content="en-us">
+    <link rel="stylesheet" type="text/css" href="resources/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/avenir.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/layout.css">
+
+    <noscript>
+      <style>.btn { position: relative; } #content { top: 200px; } </style>
+    </noscript>
+
+    <script type="text/javascript" src="resources/js/jquery-1.10.2.min.js"></script>
+    <script type='text/javascript' src="resources/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(window).load(function(){
+    $('.popoverData').popover();
+    });
+
+    $(function(){
+    function distributeFields() {
+        var radius = ($('#avatar').height() / 2) + 50;
+        var fields = $('.btn'), container = $('#circle'),
+            width = container.width(), height = container.height(),
+            step = (2*Math.PI) / fields.length, angle = 90 + step*2.5;
+        fields.each(function() {
+            var x = Math.round(width/2 + radius * Math.cos(angle) - $(this).width()/2);
+            var y = Math.round(height/2 + radius * Math.sin(angle) - $(this).height()/2);
+            if(window.console) {
+                console.log($(this).text(), x, y);
+            }
+            $(this).css({
+                left: x + 'px',
+                top: y + 'px'
+            });
+            angle += step;
+        });
+    }
+
+    distributeFields();
+    });
+    </script>
+</head>
+
+<body>
+    <div id="content">
+      <div id="circle">
+        <img src="resources/images/sharif.jpeg" alt="Sharif Hossain" id="avatar">
+        <noscript><br/></noscript>
+
+        <a href="http://www.aiub.edu/" target="blank"
+            class="btn popoverData" data-content="my university website" title="my university website" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-university"></i>
+        </a>
+        <a href="mailto:sharif.aiub.20@gmail.com"
+            class="btn popoverData" data-content="email me" title="email me" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-envelope"></i>
+        </a>
+<!--        <a href="https://keybase.io/sharif"
+            class="btn popoverData" data-content="my public key" title="verify me" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-lock"></i>
+        </a>-->
+        <a href="tel:+8801914504779"
+            class="btn popoverData" data-content="call me" title="call me" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-phone"></i>
+        </a>
+        
+        <a href="skype:sharif.hossain64?chat"
+            class="btn popoverData" data-content="chat with me" title="chat with me" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-skype"></i>
+        </a>
+        
+<!--        <a href="http://dblp.uni-trier.de/pers/hd/l/Sharif"
+            class="btn popoverData" data-content="my publications" title="my publications" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-book"></i>
+        </a>-->
+        <a href="https://twitter.com/sharif_mun" target="blank"
+            class="btn popoverData" data-content="my microblog" title="my microblog" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://github.com/sharif779" target="blank"
+            class="btn popoverData" data-content="my software" title="my software" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-github"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/5474210/sharif779" target="blank"
+            class="btn popoverData" data-content="my questions and answers" title="my questions and answers" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-stack-overflow"></i>
+        </a>
+<!--        <a href="https://flattr.com/profile/sharif"
+            class="btn popoverData" data-content="flattr me" title="flattr me" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-heart"></i>
+        </a>-->
+<!--        <a href="http://www.amazon.de/registry/wishlist/KQ7Q8JXTR93J/ref=cm_sw_r_tw_ws_SljhxbBY8TBV6"
+            class="btn popoverData" data-content="my wishlist" title="my wishlist" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-amazon"></i>
+        </a>-->
+<!--        <a href="http://paypal.me/nlohmann"
+            class="btn popoverData" data-content="my paypal" title="my paypal" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-paypal"></i>
+        </a>-->
+        <a href="https://www.linkedin.com/in/sharif779/" target="blank"
+            class="btn popoverData" data-content="my academic network" title="my academic network" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="http://sharif-hossain.me/resources/documents/sharif_resume.pdf" target="blank"
+            class="btn popoverData" data-content="my resume" title="my resume" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-file"></i>
+        </a>
+<!--        <a href="https://www.xing.com/profile/Niels_Lohmann"
+            class="btn popoverData" data-content="my professional network" title="my professional network" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-xing"></i>
+        </a>-->
+        <a href="https://www.facebook.com/sharif.aiub" target="blank"
+            class="btn popoverData" data-content="my social network" title="my social network" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-facebook"></i>
+        </a>
+<!--        <a href="https://foursquare.com/sharif"
+            class="btn popoverData" data-content="my location" title="my location" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-foursquare"></i>
+        </a>-->
+<!--        <a href="http://blog.sharif.me"
+            class="btn popoverData" data-content="my blog" title="my blog" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-comment"></i>
+        </a>-->
+        <a href="http://sharif-hossain.me/resources/documents/psm1.pdf" target="blank"
+            class="btn popoverData" data-content="my certification" title="my certification" rel="popover" data-placement="right" data-trigger="hover">
+            <i class="fa fa-certificate"></i>
+        </a>
+<!--        <a href="https://vimeo.com/nlohmann"
+            class="btn popoverData" data-content="my videos" title="my videos" rel="popover" data-placement="left" data-trigger="hover">
+            <i class="fa fa-vimeo-square"></i>
+        </a>-->
+      </div>
+        <div id="content_name">Sharif Hossain</div>
+        <div id="content_description">
+            <strong>Assistant Principal Software Engineer</strong> at <a href="https://www.stitelnetworks.com/" target="blank"><strong>Stitel Networks, LLC</strong></a><br>
+            <small> 1330 West Auto Drive | Tempe | AZ 85284 | USA</small><br>
+            <small> 20 Shahjalal Avenue | Sector-4 | Uttara | Dhaka | BD</small>
+        </div>
+    </div>
+
+    <div id="metadata" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Sharif Hossain</span>
+        <span itemprop="jobTitle">Assistant Principal Software Engineer</span>
+        <span itemprop="email">sharif.aiub.20@gmail.com</span>
+        <span itemprop="gender">male</span>
+        <span itemprop="familyName">Sharif</span>
+        <span itemprop="givenName">Sharif</span>
+        <span itemprop="honorificPrefix">Dr.</span>
+
+        
+    </div>
+  </body>
+
+</html>
