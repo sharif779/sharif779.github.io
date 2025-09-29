@@ -190,8 +190,11 @@ function App() {
               Get In Touch
             </button>
             <button className="px-8 py-4 border-2 border-slate-700 text-slate-700 rounded-lg font-semibold hover:bg-slate-700 hover:text-white transition-all duration-300 flex items-center gap-2">
-              <Download className="w-4 h-4" />
-              Download CV
+              <Download className="w-4 h-4"/>
+              <a href="http://sharif-hossain.me/resources/documents/sharif_resume.pdf" target="blank"
+                data-content="my resume" title="my resume" rel="popover" data-placement="right" data-trigger="hover">
+                <i class="fa fa-file">Download CV</i>
+            </a>
             </button>
           </div>
           
